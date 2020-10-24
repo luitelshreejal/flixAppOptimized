@@ -26,4 +26,7 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 <img src="http://g.recordit.co/pove02Xvo9.gif" width=250><br>
 
 ### Notes
-Describe any challenges encountered while building the app.
+The servers of XCode were down for a while so print(dataDictionary) wasn't working
+Further it appears that the Alamaofire library is a bit old so it's not responsive to the .af_setImage(withURL: posterURL!) method. Might need to update the video since this is the case. 
+Lots of fun nonetheless. 
+
